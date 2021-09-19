@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Foodie</title>
+    <!--Card section starts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap" rel="stylesheet">
+    <!--Card section ends-->
+
+    <!--For Contact Section starts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Wire+One|Raleway:300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--For Contact Section ends-->
+
+    <!--For Menu Section starts-->
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=lemonada">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo 2">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--For Menu Section ends-->
+
+    <link rel="stylesheet" href="foodie.css">
+    <script type="text/javascript" src="foodie.js">
+    </script>
+</head>
+
+<body>
+
+    <!--Home section starts-->
+    <header>
+        <!-- <a href="#" class="logo"><span></span></span></a> -->
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about_us" onclick="toggleMenu();">About Us</a></li>
+            <li><a href="#section-meal" onclick="toggleMenu();">Our Meal</a></li>
+            <li><a href="#dish" onclick="toggleMenu();">Breakfast</a></li>
+            <li><a href="#LAndD" onclick="toggleMenu();">Lunch&Dinner</a></li>
+            <li><a href="#DAndD" onclick="toggleMenu();">Dessert&Drink</a></li>
+            <li><a href="#section-contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner-main" id="banner-main">
+        <div class="content">
+
+            <a href="#about_us" class="btnInfo">More Info</a>
+        </div>
+    </section>
+    <!--Home sectiion ends-->
+
+    <!--About Us section starts-->
+    <section id="about_us" class="about_us">
+        <h1>About Us</h1>
+        <div class="line_break"> </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>Welcome To Our Restaurant</h2>
+                <p>Our Restaurant offers truly authentic Burmese cuisine coupled with stunning myanmar ambience and service. Everyone is sure to find something they will love on our extensive menu. Join us to enjoy the best myanmar food for Breakfast , Lunch
+                    , Dinner and Snacks .
+                </p>
+                <h3 style="color:#daa520; font-weight: 300px; font-size: 25px; text-shadow: 0px 0.5px 0.5px black;">“ We know how to make a great tasting Myanmar Food” </h3>
+                <!-- <a href="#section-meal">Veiw Menu</a> -->
+            </div>
+            <div class="col-2">
+                <img src="images/about myanmar.png">
+            </div>
+        </div>
+    </section>
+    <!--About Us section ends-->
+
+    <!--Card section starts-->
+    <section id="section-meal">
+
+        <section class="food_section">
+            <div class="items">
+                <i class="fas fa-concierge-bell"></i>
+                <h2>Breakfast Section</h2>
+                <p>There is no better breakfast dish than a bowl of mohinga for locals to wake up to each morning. The morning signature dish is rice noodles covered in rich and pungent umami fish broth.</p>
+                <a class="custom-btn btn-1" href="#dish">View Items</a>
+            </div>
+            <div class="items">
+                <i class="fas fa-utensils"></i>
+                <h2>Lunch Section</h2>
+                <p>Burmese Cuisine is not a dish meal, where variety is key.Try something new and treat your tastebuds to a symphony of flavors. The complexity results in dishes that truly nourish the soul. </p>
+                <a class="custom-btn btn-1" href="#LAndD">View Items</a>
+            </div>
+            <div class="items">
+                <i class="fas fa-mug-hot"></i>
+                <h2>Dessert Section</h2>
+                <p>The best way to finish your meal is with our traditional sweet. Our sweet delights are the perfect finishing touch to a hearty local meal. To fully experience Myanmar is to try our famous sweets and desserts. </p>
+                <a class="custom-btn btn-1" href="#DAndD">View Items</a>
+            </div>
+
+        </section>
+    </section>
+    <!--Card section ends-->
+
+    <!--Menu section starts-->
+    <!-- Breakfast section starts  -->
+    <section id="dish" class="container">
+        <div class="heading text-center">
+            <h1> <span>Breakfast</span></h1>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/bf1.jpg" alt="">
+                <div class="info">
+                    <h3>Breakfast</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/bf2.jpg" alt="">
+                <div class="info">
+                    <h3>Breakfast</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/bf3.jpg" alt="">
+                <div class="info">
+                    <h3>Breakfast</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/bf4.jpg" alt="">
+                <div class="info">
+                    <h3>Breakfast</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/bf5.jpg" alt="">
+                <div class="info">
+                    <h3>Breakfast</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/bf6.jpg" alt="">
+                <div class="info">
+                    <h3>Breakfast</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/bf7.jpg" alt="">
+                <div class="info">
+                    <h3>Breakfast</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/bf8.jpg" alt="">
+                <div class="info">
+                    <h3>Breakfast</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Breakfast section ends  -->
+
+    <!--Lunch&Dinner section starts-->
+    <section class="dishLD" id="LAndD">
+
+        <div class="heading text-center">
+            <h1><span>Lunch</span>&<span>Dinner</span></h1>
+        </div>
+
+        <ul class="controlsLD">
+            <li class="buttons button-active-LD" data-filter-LD="mainDish">Main Dish</li>
+            <li class="buttons" data-filter-LD="salad">Salads</li>
+            <li class="buttons" data-filter-LD="friedVegetable">Fried Vegetables</li>
+            <li class="buttons" data-filter-LD="appetizers">Appetizers</li>
+            <li class="buttons" data-filter-LD="vegetarian">Vegetaian</li>
+        </ul>
+
+        <div class="box-container">
+
+            <div class="box mainDish">
+                <img src="images/main1.jpg" alt="">
+                <div class="info">
+                    <h3>mainDish</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box mainDish">
+                <img src="images/main2.jpg" alt="">
+                <div class="info">
+                    <h3>mainDish</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box mainDish">
+                <img src="images/main3.jpg" alt="">
+                <div class="info">
+                    <h3>mainDish</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box mainDish">
+                <img src="images/main4.jpg" alt="">
+                <div class="info">
+                    <h3>mainDish</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box mainDish">
+                <img src="images/main5.jpg" alt="">
+                <div class="info">
+                    <h3>mainDish</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box mainDish">
+                <img src="images/main6.jpg" alt="">
+                <div class="info">
+                    <h3>mainDish</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box mainDish">
+                <img src="images/main7.jpg" alt="">
+                <div class="info">
+                    <h3>mainDish</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box mainDish">
+                <img src="images/main8.jpg" alt="">
+                <div class="info">
+                    <h3>mainDish</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+
+            <div class="box salad">
+                <img src="images/salad1.jpg" alt="">
+                <div class="info">
+                    <h3>salad</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box salad">
+                <img src="images/salad2.jpg" alt="">
+                <div class="info">
+                    <h3>salad</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box salad">
+                <img src="images/salad3.jpg" alt="">
+                <div class="info">
+                    <h3>salad</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box salad">
+                <img src="images/salad4.jpg" alt="">
+                <div class="info">
+                    <h3>salad</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box salad">
+                <img src="images/salad5.jpg" alt="">
+                <div class="info">
+                    <h3>salad</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box salad">
+                <img src="images/salad6.jpg" alt="">
+                <div class="info">
+                    <h3>salad</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box salad">
+                <img src="images/salad7.jpg" alt="">
+                <div class="info">
+                    <h3>salad</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box salad">
+                <img src="images/salad8.jpg" alt="">
+                <div class="info">
+                    <h3>salad</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+
+            <div class="box friedVegetable">
+                <img src="images/fried1.jpg" alt="">
+                <div class="info">
+                    <h3>friedVegetable</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box friedVegetable">
+                <img src="images/fried2.jpg" alt="">
+                <div class="info">
+                    <h3>friedVegetable</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box friedVegetable">
+                <img src="images/fried3.jpg" alt="">
+                <div class="info">
+                    <h3>friedVegetable</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box friedVegetable">
+                <img src="images/fried4.jpg" alt="">
+                <div class="info">
+                    <h3>friedVegetable</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box friedVegetable">
+                <img src="images/fried5.jpg" alt="">
+                <div class="info">
+                    <h3>friedVegetable</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box friedVegetable">
+                <img src="images/fried6.jpg" alt="">
+                <div class="info">
+                    <h3>friedVegetable</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box friedVegetable">
+                <img src="images/fried7.jpg" alt="">
+                <div class="info">
+                    <h3>friedVegetable</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+
+            <div class="box appetizers">
+                <img src="images/appetizer1.jpg" alt="">
+                <div class="info">
+                    <h3>appetizers</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box appetizers">
+                <img src="images/appetizer2.jpg" alt="">
+                <div class="info">
+                    <h3>appetizers</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box appetizers">
+                <img src="images/appetizer3.jpg" alt="">
+                <div class="info">
+                    <h3>appetizers</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box appetizers">
+                <img src="images/appetizer4.jpg" alt="">
+                <div class="info">
+                    <h3>appetizers</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box appetizers">
+                <img src="images/appetizer5.jpg" alt="">
+                <div class="info">
+                    <h3>appetizers</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box appetizers">
+                <img src="images/appetizer6.jpg" alt="">
+                <div class="info">
+                    <h3>appetizers</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box appetizers">
+                <img src="images/appetizer7.jpg" alt="">
+                <div class="info">
+                    <h3>appetizers</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+
+            <div class="box vegetarian">
+                <img src="images/Vegetarian1.jpg" alt="">
+                <div class="info">
+                    <h3>vegetarian</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box vegetarian">
+                <img src="images/Vegetarian2.jpg" alt="">
+                <div class="info">
+                    <h3>vegetarian</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box vegetarian">
+                <img src="images/Vegetarian3.jpg" alt="">
+                <div class="info">
+                    <h3>vegetarian</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box vegetarian">
+                <img src="images/Vegetarian4.jpg" alt="">
+                <div class="info">
+                    <h3>vegetarian</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box vegetarian">
+                <img src="images/Vegetarian5.jpg" alt="">
+                <div class="info">
+                    <h3>vegetarian</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box vegetarian">
+                <img src="images/Vegetarian6.jpg" alt="">
+                <div class="info">
+                    <h3>vegetarian</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box vegetarian">
+                <img src="images/Vegetarian1.jpg" alt="">
+                <div class="info">
+                    <h3>vegetarian</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box vegetarian">
+                <img src="images/Vegetarian2.jpg" alt="">
+                <div class="info">
+                    <h3>vegetarian</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Lunch&Dinner section ends-->
+
+    <!--Dessert&Drink section starts-->
+    <section class="dishDD" id="DAndD">
+        <div class="heading text-center">
+            <h1><span>Dessert</span>&<span>Drink</span></h1>
+        </div>
+
+        <ul class="controlsDD">
+            <li class="buttons button-active-DD" data-filter-DD="dessert">Dessert</li>
+            <li class="buttons" data-filter-DD="drink">Drink</li>
+        </ul>
+
+        <div class="box-container">
+            <div class="box dessert">
+                <img src="images/dessert1.jpg" alt="">
+                <div class="info">
+                    <h3>dessert</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box dessert">
+                <img src="images/dessert2.jpg" alt="">
+                <div class="info">
+                    <h3>dessert</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box dessert">
+                <img src="images/dessert3.jpg" alt="">
+                <div class="info">
+                    <h3>dessert</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box dessert">
+                <img src="images/dessert4.jpg" alt="">
+                <div class="info">
+                    <h3>dessert</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box dessert">
+                <img src="images/appetizer5.jpg" alt="">
+                <div class="info">
+                    <h3>dessert</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box dessert">
+                <img src="images/appetizer6.jpg" alt="">
+                <div class="info">
+                    <h3>dessert</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box dessert">
+                <img src="images/appetizer7.jpg" alt="">
+                <div class="info">
+                    <h3>dessert</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box dessert">
+                <img src="images/appetizer2.jpg" alt="">
+                <div class="info">
+                    <h3>dessert</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+
+            <div class="box drink">
+                <img src="images/drink1.jpg" alt="">
+                <div class="info">
+                    <h3>drink</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box drink">
+                <img src="images/drink2.jpg" alt="">
+                <div class="info">
+                    <h3>drink</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box drink">
+                <img src="images/drink3.jpg" alt="">
+                <div class="info">
+                    <h3>drink</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box drink">
+                <img src="images/drink5.jpg" alt="">
+                <div class="info">
+                    <h3>drink</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box drink">
+                <img src="images/drink6.jpg" alt="">
+                <div class="info">
+                    <h3>drink</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box drink">
+                <img src="images/drink7.jpg" alt="">
+                <div class="info">
+                    <h3>drink</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box drink">
+                <img src="images/drink8.jpg" alt="">
+                <div class="info">
+                    <h3>drink</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+            <div class="box drink">
+                <img src="images/drink9.jpg" alt="">
+                <div class="info">
+                    <h3>drink</h3>
+                    <p class="ingredient">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <p class="price">¥899</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Dessert&Drink section ends-->
+    <!--menu section ends-->
+
+    <!--Contact section starts-->
+    <section id="section-contact">
+        <div class="banner-contact">
+            <div class="banner-text">
+                <h1> We're always in the <br> mood for food.</h1>
+                <div class="contactInfo">
+                    <div>
+                        <h2 style="text-decoration: underline;">Contact Info</h2>
+
+                        <p style="text-align: center; font-size: 25px;">
+                            <b style=" text-shadow: 0 1px 1px yellow;">Monday–Saturday &#10146; 9:00am–5:00pm <br>
+                            <b style=" text-shadow: 0 1px 1px yellow;">Call &#10146;</b> 099-367-9327 <br>
+                            <b style=" text-shadow: 0 1px 1px yellow;">Fax &#10146; </b> 099-624-7352<br>
+                            <b style=" text-shadow: 0 1px 1px yellow;">Email &#10146;</b> customerservice@crayonpop.com&nbsp; <br>
+                            <b style=" text-shadow: 0 1px 1px yellow;">Address &#10146; </b> No-24, Thandar Street, Sanchang Township,Yangon<br>
+                        </p>
+                    </div>
+                </div>
+                <a href="#" class="btn2">Food Order</a>
+            </div>
+            <div class="banner-img">
+                <div class="contactForm">
+                    <h2 class="neon1">Reservation</h2>
+                    <div class="fontF">Your Name</div><br/>
+                    <input type="text" class="field">
+                    <div class="fontF">Date<span style="color: red;"> *</span></div><br/>
+                    <input type="date" class="field">
+                    <div class="fontF">Phone Number</div><br/>
+                    <input type="text" class="field">
+                    <div class="fontF">Number of Attendees<span style="color: red;"> *</span></div><br/>
+                    <select id="data_8" name="data_8" class="field"><option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>10+ (Specify in Comments)</option>
+                    </select>
+                    <div class="fontF">Message</div><br/>
+                    <textarea class="field"></textarea>
+                    <button class="btn">Reserve</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact section ends-->
+
+    <!--Footer section starts-->
+    <div class="copyrightText">
+        <p>Copyright 2021<a href="#">Myanmar Traditional Food Page</a>.All Right Reserved</p>
+    </div>
+    <!--Footer section ends-->
+</body>
+
+</html>
